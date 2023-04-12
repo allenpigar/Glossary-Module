@@ -99,7 +99,7 @@
     - name: "sub_header"
       label: "Sub Header"
       description: ""
-      datatype: "text"
+      datatype: "textarea"
       sort: 9
       required: false
       relationship: null
