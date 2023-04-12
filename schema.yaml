@@ -140,7 +140,7 @@
     - name: "sub_header"
       label: "Sub Heading"
       description: null
-      datatype: "text"
+      datatype: "textarea"
       sort: 1
       required: true
       relationship: null
