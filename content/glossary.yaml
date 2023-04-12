@@ -1,0 +1,28 @@
+- id: "d83d-1166-0d7c"
+  web:
+    metaDescription: "Read our useful home insurance glossary to explain all those tricky terms. Understand your policy and make home insurance simpler."
+    metaTitle: "Insurance glossary | Home insurance terms "
+    metaLinkText: "Glossary"
+    metaKeywords: null
+    pathPart: "glossary"
+    path: "/glossary/"
+    sitemapPriority: -1
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+    parent: "/"
+  meta:
+    sort: 404
+    listed: true
+  data:
+    date: null
+    feature_image: null
+    feature_image_alt: null
+    feature_video: null
+    header_text: "Homeowners insurance glossary"
+    is_featured_clipped: 0
+    related_post: null
+    related_post_header: null
+    show_related_post: 0
+    sub_header: null
+    sub_text: null
