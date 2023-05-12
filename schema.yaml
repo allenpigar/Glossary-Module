@@ -1,78 +1,119 @@
-- description: null
+- description: ""
   label: "Glossary"
   name: "glossary"
-  sort: 1
+  sort: 403
   listed: true
   hasRoute: true
   showAsTable: false
   parent: null
   fields:
-    - name: "sort_title"
-      label: "Sort Title"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "header_text"
-      label: "Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "sub_header"
-      label: "Sub Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "sub_text"
-      label: "List Summary"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_image"
-      label: "Featured Image"
-      description: null
-      datatype: "images"
-      sort: 1
-      required: null
+    - name: "date"
+      label: "date"
+      description: ""
+      datatype: "date"
+      sort: 0
+      required: false
       relationship: null
       settings:
-        limit: 1
-        list: false
-    - name: "featured_image_alt"
-      label: "Featured Image Alt"
-      description: null
-      datatype: "text"
+        list: true
+    - name: "feature_image"
+      label: "Feature Image"
+      description: ""
+      datatype: "images"
       sort: 1
-      required: true
+      required: false
       relationship: null
-    - name: "featured_video"
-      label: "Featured Video"
-      description: null
+      settings:
+        limit: ""
+        list: true
+    - name: "feature_image_alt"
+      label: "Feature Image Alt"
+      description: ""
       datatype: "text"
-      sort: 1
-      required: true
+      sort: 2
+      required: false
       relationship: null
-    - name: "schemamarkup"
-      label: "Schema Markup"
-      description: null
+      settings:
+        list: true
+    - name: "feature_video"
+      label: "Feature Video"
+      description: ""
+      datatype: "images"
+      sort: 3
+      required: false
+      relationship: null
+      settings:
+        limit: ""
+        list: true
+    - name: "header_text"
+      label: "Header Text"
+      description: ""
+      datatype: "text"
+      sort: 4
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "is_featured_clipped"
+      label: "Is Featured Clipped"
+      description: ""
+      datatype: "yes_no"
+      sort: 5
+      required: false
+      relationship: null
+      settings:
+        list: true
+        options:
+          0: "No"
+          1: "Yes"
+    - name: "related_post"
+      label: "Related Post"
+      description: ""
+      datatype: "one_to_many"
+      sort: 6
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "related_post_header"
+      label: "Related Post Header"
+      description: ""
+      datatype: "text"
+      sort: 7
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "show_related_post"
+      label: "Show Related Post"
+      description: ""
+      datatype: "yes_no"
+      sort: 8
+      required: false
+      relationship: null
+      settings:
+        list: true
+        options:
+          0: "No"
+          1: "Yes"
+    - name: "sub_header"
+      label: "Sub Header"
+      description: ""
       datatype: "textarea"
-      sort: 1
-      required: true
+      sort: 9
+      required: false
       relationship: null
-    - name: "body"
-      label: "Body"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
+      settings:
+        list: true
+    - name: "sub_text"
+      label: "Sub Text"
+      description: ""
+      datatype: "text"
+      sort: 10
+      required: false
       relationship: null
+      settings:
+        list: true
 - description: null
   label: "Glossary Pages"
   name: "glossary_pages"
