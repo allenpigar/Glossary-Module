@@ -73,7 +73,6 @@
       sort: 1
       required: true
       relationship: null
-
 - description: null
   label: "Glossary Pages"
   name: "glossary_pages"
